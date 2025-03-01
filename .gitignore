@@ -1,0 +1,12 @@
+# 环境文件
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.log
+*.pot
+*.egg-info/
+dist/
+build/

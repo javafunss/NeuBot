@@ -1,0 +1,25 @@
+[project]
+name = "neubot"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "javafunss",email = "javafunss@163.com"}
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.13.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
+[[tool.poetry.source]]
+name = "aliyun"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+priority = "primary"
+
+
+
+
